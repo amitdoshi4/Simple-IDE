@@ -1,0 +1,14 @@
+Compilation instruction:
+
+1)cd to the "src" folder
+2)javac -classpath "path to src";"path to src\*" main\MainInterface.java
+
+Example:
+C:\Users\Amit\sdtProject\SimpleIDE\src>javac -classpath C:\Users\Amit\sdtProject\SimpleIDE\src;C:\Users\Amit\sdtProject\SimpleIDE\src\* main\MainInterface.java
+
+Running Instruction:
+1)cd to the "src" folder
+2)java -classpath "path to src";"path to src\*" main/MainInterface.java
+
+Example:
+C:\Users\Amit\sdtProject\SimpleIDE\src>java -classpath C:\Users\Amit\sdtProject\SimpleIDE\src;C:\Users\Amit\sdtProject\SimpleIDE\src\* main/MainInterface
